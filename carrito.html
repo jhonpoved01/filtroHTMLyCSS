@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="todo">
+        <aside>
+            <header>
+                <h1 class="logo">Campus<span class="text-logo-color">Shop</span></h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a  class="boton-menu boton-volver" href="./index.html"><ion-icon name="arrow-undo-outline"></ion-icon>volver</a>
+                    </li>
+                    <li>
+                        <a  class="boton-menu boton-carrito" href="./carrito.html"><ion-icon name="cart-outline"></ion-icon>Carrito</a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2024 Jhon Poveda</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Compras</h2>
+            <div class="contenedor-carrito">
+                <p class="carro--vacio">Vacio<ion-icon name="sad-outline"></ion-icon></p> 
+                <div class="carro--productos">
+                    <div class="carrito--productico">
+                        <img class="carro--produto--imagen" src="./img/abrigoLargo.jpg" alt="">
+                        <div class="carro--producto--titulo">
+                            <small>Titulo</small>
+                            <h3>Abrigo Largo</h3>
+                        </div>
+                        <div class="carro--producto--cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carro--producto--precio">
+                            <small>Precio</small>
+                            <p>$150000</p>
+                        </div>
+                        <div class="carro--producto--subtotal">
+                            <small>Subtotal</small>
+                            <p>$150000</p>
+                        </div>
+                        <button class="carro--producto--eliminar"><ion-icon name="trash-outline"></ion-icon></button>
+                    </div>
+                    <div class="carrito--productico">
+                        <img class="carro--produto--imagen" src="./img/comico.jpg" alt="">
+                        <div class="carro--producto--titulo">
+                            <small>Titulo</small>
+                            <h3>Buso Tipo Comic</h3>
+                        </div>
+                        <div class="carro--producto--cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carro--producto--precio">
+                            <small>Precio</small>
+                            <p>$170000</p>
+                        </div>
+                        <div class="carro--producto--subtotal">
+                            <small>Subtotal</small>
+                            <p>$320000</p>
+                        </div>
+                        <button class="carro--producto--eliminar"><ion-icon name="trash-outline"></ion-icon></button>
+                    </div>
+                    <div class="carro--accion">
+                        <div class="carro--accion--izquierda">
+                            <a   href="./carritoVacio.html"><ion-icon name="arrow-undo-outline"></ion-icon>Vaciar Carrito</a>
+                        </div>
+                        <div class="carro--accion--derecha">
+                            <div class="carro--accion--total">
+                                <p>Total:</p>
+                                <p id="Total">320000</p>
+                            </div>
+                            <button class="carro--accion--comprar">Pagar Ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
